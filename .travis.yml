@@ -14,7 +14,7 @@ notifications:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: 6ba0464a7cf2e278b3ca81a2011567457e6a9a52 # Set in travis-ci.org dashboard
   on:
     branch: master
   local_dir: target/sentiment-1.0-SNAPSHOT/
